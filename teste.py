@@ -36,7 +36,7 @@ for i in range(5):
     At.append(vetorFolga)
 
 A = [list(linha) for linha in zip(*At)]   #Transpondo a matriz At para obter a matriz A
-        
-print(f"Vetor de restrições b: {b}\nVetor de coeficientes c: {c}\nMatriz A:")
+
+print(f"Usando o nome {NAME}\nVetor de restrições b: {b}\nVetor de coeficientes c: {c}\nMatriz A:")
 for linha in A:
     print(" ".join(f"{elem:<10}" for elem in linha))  # Alinhamento à direita com 5 espaços por coluna
